@@ -3,27 +3,26 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f2ea8602b3d1a9aa9d28b04bf52e6f4c",
+    "hash": "7e2f78dce0732fbe5cb14fbde702c9f7",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-feature/version-2",
+            "version": "dev-Magomogo-check-dev-requires",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "bd748c316e42a75fac323281711b14de62536ae2"
+                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/bd748c316e42a75fac323281711b14de62536ae2",
-                "reference": "bd748c316e42a75fac323281711b14de62536ae2",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/aefd9b95f2bccc8f412904b09214cc1a14eef08b",
+                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "1.0.0",
                 "icecave/isolator": "~2",
-                "php": ">=5.3",
-                "symfony/process": "~2"
+                "php": ">=5.3"
             },
             "require-dev": {
                 "composer/composer": "dev-master@dev",
@@ -60,7 +59,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2014-01-26 10:40:27"
+            "time": "2014-02-12 03:45:24"
         },
         {
             "name": "icecave/isolator",
@@ -110,53 +109,6 @@
                 "unit"
             ],
             "time": "2013-06-04 05:00:29"
-        },
-        {
-            "name": "symfony/process",
-            "version": "v2.4.1",
-            "target-dir": "Symfony/Component/Process",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Process.git",
-                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/58fdccb311e44f28866f976c2d7b3227e9f713db",
-                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Process\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Process Component",
-            "homepage": "http://symfony.com",
-            "time": "2014-01-05 02:10:50"
         }
     ],
     "packages-dev": [

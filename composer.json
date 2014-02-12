@@ -1,6 +1,6 @@
 {
     "name": "ezzatron/composer-npm-bridge-fixture-dependency",
     "require": {
-        "eloquent/composer-npm-bridge": "dev-feature/version-2@dev"
+        "eloquent/composer-npm-bridge": "dev-Magomogo-check-dev-requires@dev"
     }
 }
