@@ -1,6 +1,6 @@
 {
     "name": "ezzatron/composer-npm-bridge-fixture-dependency",
     "require": {
-        "eloquent/composer-npm-bridge": "~2.1.0"
+        "eloquent/composer-npm-bridge": "dev-develop"
     }
 }
