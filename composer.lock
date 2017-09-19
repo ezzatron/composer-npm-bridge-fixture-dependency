@@ -4,31 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b513f2ec2cb895c210a2563113c7d5c",
+    "content-hash": "ec5a0f2428fc5832557db36646f9c9cb",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-npm-lock",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a"
+                "reference": "1f035cc8d0698b918050b01585dc9d2b595d7b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/1f035cc8d0698b918050b01585dc9d2b595d7b65",
+                "reference": "1f035cc8d0698b918050b01585dc9d2b595d7b65",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1",
-                "php": ">=5.3"
+                "php": ">=7"
             },
             "require-dev": {
                 "composer/composer": "dev-master",
-                "eloquent/phony": "^0.8",
-                "icecave/archer": "dev-develop",
-                "phpunit/phpunit": "^4"
+                "eloquent/phony-phpunit": "^2",
+                "errors/exceptions": "^0.2",
+                "phpunit/phpunit": "^6"
             },
             "type": "composer-plugin",
             "extra": {
@@ -61,15 +61,13 @@
                 "package",
                 "plugin"
             ],
-            "time": "2017-07-11 04:03:41"
+            "time": "2017-07-12T04:13:47+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "eloquent/composer-npm-bridge": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
